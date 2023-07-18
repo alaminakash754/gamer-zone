@@ -152,11 +152,168 @@
     border-radius: 48px;
     background: #4EC5F7;
 }
-.banner-img{
+
+.banner-img {
     margin-right: 40px;
 }
-.banner-image{
-    width:600;
+
+.banner-image {
+    width: 600;
     height: 500px;
-    
+
+}
+
+/* Gamer Container part */
+
+.gamer-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gamer-container-img {
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 650px;
+    height: 350px;
+}
+
+.gamer-container-details {
+    margin-right: 100px;
+    margin-top: 50px;
+    text-align: end;
+}
+
+.gamer-container-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-container-description {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #534C64;
+}
+
+.gamer-container-btn {
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-bottom: 10px;
+}
+
+.gamer-container-description-special {
+    font-size: 1.4rem;
+}
+
+/* Gamer trail videos style */
+.gamer-videos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.gamer-videos-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-videos h4 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: rgba(11, 2, 35, 1);
+}
+
+.gamer-videos-description {
+    margin-top: 10px;
+}
+
+.videos {
+    margin-left: 80px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    gap: 5px;
+}
+
+.video-card {
+    border-radius: 16px;
+}
+
+.card-img {
+    width: 215px;
+    height: 310px;
+}
+
+.card-img-7 {
+    width: 215px;
+    height: 310px;
+}
+
+.card-description {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+/* instant play style parts */
+.instant-play {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.instant-play-details {
+    margin-left: 150px;
+    width: 400px;
+    text-align: right;
+    margin-bottom: 150px;
+}
+
+.instant-play-details h3 {
+    font-size: 2.2rem;
+    color: #0B0223;
+}
+
+.instant-play-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-play-img-top {
+    margin-left: 150px;
+    width: 350px;
+    height: 400px;
+}
+
+.instant-play-img-bottom {
+    margin-left: 70px;
+    width: 180px;
+    height: 220px;
+    border-radius: 4px;
+    border: 5px solid #FFF;
+    background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+    position: relative;
+    bottom: 160px;
+}
+.instant-play-description{
+    color: #534C64;
+    font-size: 0.8rem;
+    font-weight: 600;
 }

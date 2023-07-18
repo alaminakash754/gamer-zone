@@ -1,7 +1,10 @@
 /* For Small Devices */
 @media screen and (max-width:576px) {
-    .nav-container, .menus > ul, .banner-container{
+    .nav-container, .menus > ul, .banner-container, .gamer-container, .instant-play{
         flex-direction: column;
+    }
+    .gamer-container{
+        flex-direction: column-reverse;
     }
     .nav-title-menu{
         padding-left: 300px;
@@ -24,4 +27,53 @@
         width: 270px;
         height: 220px;
     }
+    .gamer-container-img{
+        margin-left: 10px;
+        width: 330px;
+        height: 200px;
+    }
+    .gamer-container-details{
+        margin-left: 90px;
+        text-align: center;
+    }
+    .gamer-container-title{
+        font-size: 1.3rem;
+    }
+    .gamer-container-description{
+        font-size: 0.6rem;
+    }
+    .gamer-container-description-special{
+        font-size: 0.8rem;
+    }
+    .videos{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+    .gamer-videos h4, .gamer-videos-title{
+        font-size: 1rem;
+    }
+    .gamer-videos-description,.instant-play-description {
+        font-size: 0.6rem;
+    }
+    .instant-play-details{
+        margin-left: 15px;
+        text-align: center;
+    }
+    .instant-play-img-top{
+        margin-top: 0;
+        margin-left: 100px;
+        width: 250px;
+        height: 350px;
+    }
+    .instant-play-img-bottom{
+        width: 100px;
+        height: 150px;
+        bottom: 120px;
+        margin-left: 40px;
+    }
+    .instant-play{
+        margin-top: 20px;
+        gap: 5px;
+    }
+  
 }
