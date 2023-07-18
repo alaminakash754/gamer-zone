@@ -1,0 +1,27 @@
+/* For Small Devices */
+@media screen and (max-width:576px) {
+    .nav-container, .menus > ul, .banner-container{
+        flex-direction: column;
+    }
+    .nav-title-menu{
+        padding-left: 300px;
+    }
+    .menus{
+        margin-left: 100px;
+    }
+    .banner-heading, .banner-title{
+        font-size: 1.5rem;
+    }
+    .banner-details{
+        margin-left: 70px;
+        height: 200px;
+        width: 250px;
+        margin-bottom: 50px;
+    }
+    .banner-image{
+        margin-left: 60px;
+        margin-top: 20px;
+        width: 270px;
+        height: 220px;
+    }
+}

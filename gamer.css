@@ -65,6 +65,7 @@
 }
 
 .nav-btn {
+    height: 45px;
     width: 200px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
@@ -79,4 +80,83 @@
 .tiktok {
     width: 35px;
     height: 30x;
+}
+
+/* Banner container style parts */
+.banner-container {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+}
+
+.banner-details {
+    margin-left: 130px;
+    width: 40%;
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+
+.banner-heading {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.banner-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.description {
+    padding-top: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.download-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.banner-btn {
+    margin-top: 35px;
+}
+
+.left-btn {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.right-btn {
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+.banner-img{
+    margin-right: 40px;
+}
+.banner-image{
+    width:600;
+    height: 500px;
+    
 }
