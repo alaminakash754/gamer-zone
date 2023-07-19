@@ -173,22 +173,34 @@
     }
 
     .nav-title-menu {
-        padding-left: 300px;
-        margin-left: 500px;
+        width: 40%;
+        padding-left: 200px;
+        margin-left: 400px;
     }
 
     .menus {
-        margin-right: 100px;
-        padding-right: 250px;
+        width: 50%;
+        margin-right: 200px;
+        padding-right: 200px;
+    }
+    .nav-btn{
+        gap: 10px;
+        width: 200px;
+    }
+    .nav-btn p{
+        font-size: 0.8rem;
     }
 
     .menus li {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 
     .banner-container {
-        margin-left: 200px;
+        margin-left: 150px;
         gap: 20px;
+    }
+    .banner-description{
+        font-size: 0.9rem;
     }
 
     .banner-image {
