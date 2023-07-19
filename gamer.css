@@ -140,6 +140,11 @@
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
+.left-btn:hover{
+    border:2px solid #3C354F;
+    color: #3C354F;
+    cursor: pointer;
+}
 
 .right-btn {
     margin-left: 20px;
@@ -151,6 +156,11 @@
     height: 30px;
     border-radius: 48px;
     background: #4EC5F7;
+}
+.right-btn:hover{
+    border:2px solid #FF42A5;
+    color: #F948B2;
+    cursor: pointer;
 }
 
 .banner-img {
@@ -212,6 +222,11 @@
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     margin-bottom: 10px;
 }
+.gamer-container-btn:hover{
+    border:2px solid #3C354F;
+    color: #3C354F;
+    cursor: pointer;
+}
 
 .gamer-container-description-special {
     font-size: 1.4rem;
@@ -219,6 +234,7 @@
 
 /* Gamer trail videos style */
 .gamer-videos {
+    margin-left: 100px;
     margin-top: 50px;
     text-align: center;
 }
@@ -263,7 +279,33 @@
     width: 215px;
     height: 310px;
 }
-
+.card-img-7:hover{
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+    background: transparent;
+    opacity: 0.50;
+    cursor: pointer;
+}
+.play-button-img:hover{
+    color: #FF42A5;
+    cursor: pointer;
+}
+.play-button-img{
+    position: relative;
+    bottom: 240px;
+    border: none;
+    background-color: transparent; 
+}
+.play-button-image{
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+}
+.play-button-img p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+}
 .card-description {
     margin-top: 10px;
     font-size: 0.85rem;
@@ -312,8 +354,111 @@
     position: relative;
     bottom: 160px;
 }
-.instant-play-description{
+
+.instant-play-description {
     color: #534C64;
     font-size: 0.8rem;
     font-weight: 600;
+}
+
+/* Choose any games for playing styles */
+.choose-games {
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.choose-game-btn {
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #FFF;
+    color: #0B0223;
+}
+
+.choose-game-btn:hover {
+    border: 1px solid #FF42A5;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.choose-games-img {
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+/* Footer Section */
+.footer{
+    height: 350px;
+    background-color: #0B0223;;
+}
+.footer-title-menu{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-title{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.nav-menu > ul{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-menu li{
+    font-size: 0.9rem;
+}
+.nav-menu li, .nav-menus li{
+    list-style: none;
+}
+
+.nav-icon-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.nav-icon-img{
+    border-radius: 30px;
+    width: 25px;
+    height: 25px;
+}  
+.nav-icon-img, .nav-icon-image button:hover{
+    cursor: pointer;
+}
+.nav-menus{
+    margin-top: 20px;
+    font-size: 0.8rem;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer p{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.60);
 }
