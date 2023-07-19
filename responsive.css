@@ -1,119 +1,312 @@
-/* For Small Devices */
+/* Responsive For Small Devices */
 @media screen and (max-width:576px) {
-    .nav-container, .menus > ul, .banner-container, .gamer-container, .instant-play{
+
+    .nav-container,
+    .menus>ul,
+    .banner-container,
+    .gamer-container,
+    .instant-play {
         flex-direction: column;
     }
-    .gamer-container{
+
+    .gamer-container {
         flex-direction: column-reverse;
     }
-    .nav-title-menu{
+
+    .nav-title-menu {
         padding-left: 300px;
     }
-    .menus{
+
+    .menus {
         margin-left: 100px;
     }
-    .banner-heading, .banner-title{
+
+    .banner-heading,
+    .banner-title {
         font-size: 1.5rem;
     }
-    .banner-details{
+
+    .banner-details {
         margin-left: 70px;
         height: 200px;
         width: 250px;
         margin-bottom: 50px;
     }
-    .banner-image{
+
+    .banner-image {
         margin-left: 60px;
         margin-top: 20px;
         width: 270px;
         height: 220px;
     }
-    .gamer-container-img{
+
+    .gamer-container-img {
         margin-left: 10px;
         width: 330px;
         height: 200px;
     }
-    .gamer-container-details{
+
+    .gamer-container-details {
         margin-left: 90px;
         text-align: center;
     }
-    .gamer-container-title{
+
+    .gamer-container-title {
         font-size: 1.3rem;
     }
-    .gamer-container-description{
+
+    .gamer-container-description {
         font-size: 0.6rem;
     }
-    .gamer-container-description-special{
+
+    .gamer-container-description-special {
         font-size: 0.8rem;
     }
-    .gamer-videos{
+
+    .gamer-videos {
         margin-left: 0;
         margin-right: 27px;
     }
-    .videos{
+
+    .videos {
         grid-template-columns: 1fr;
         margin-right: 30px;
-       
+
     }
-    .gamer-videos h4, .gamer-videos-title{
+
+    .gamer-videos h4,
+    .gamer-videos-title {
         font-size: 1rem;
     }
-    .gamer-videos-description,.instant-play-description {
+
+    .gamer-videos-description,
+    .instant-play-description {
         font-size: 0.6rem;
     }
-    .instant-play-details{
+
+    .instant-play-details {
         margin-left: 15px;
         text-align: center;
     }
-    .instant-play-img-top{
+
+    .instant-play-img-top {
         margin-top: 0;
         margin-left: 100px;
         width: 250px;
         height: 350px;
     }
-    .instant-play-img-bottom{
+
+    .instant-play-img-bottom {
         width: 100px;
         height: 150px;
         bottom: 120px;
         margin-left: 40px;
     }
-    .instant-play{
+
+    .instant-play {
         margin-top: 20px;
         gap: 5px;
     }
-    .choose-games{
+
+    .choose-games {
         padding: 0;
         gap: 20px;
         margin-top: 50px;
         flex-direction: grid;
         grid-template-columns: repeat(3, 1fr);
     }
-    .choose-game-btn{
+
+    .choose-game-btn {
         width: 120px;
         height: 30px;
     }
-    .choose-game-btn p{
+
+    .choose-game-btn p {
         font-size: 0.5rem;
     }
-    .nav-menu > ul, .nav-icon-image{
+
+    .nav-menu>ul,
+    .nav-icon-image {
         margin-left: 30px;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
-    .nav-icon-image{
+
+    .nav-icon-image {
         margin-left: 60px;
     }
-    .nav-icon-image button{
-        width: 30px;        
-    } 
-    .nav-menus{
+
+    .nav-icon-image button {
+        width: 30px;
+    }
+
+    .nav-menus {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-left: 70px;
         gap: 10px;
     }
-    .footer-title-menu{
+
+    .footer-title-menu {
         padding-top: 10px;
     }
-  
+
+}
+
+/* Responsive For Tablet */
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    .gamer-container,
+    .banner-container,
+    .instant-play {
+        flex-direction: column;
+    }
+
+    .gamer-container {
+        flex-direction: column-reverse;
+    }
+
+    .nav-container {
+        width: 100%;
+        gap: 0;
+    }
+
+    .nav-title-menu {
+        padding-left: 300px;
+        margin-left: 500px;
+    }
+
+    .menus {
+        margin-right: 100px;
+        padding-right: 250px;
+    }
+
+    .menus li {
+        font-size: 0.6rem;
+    }
+
+    .banner-container {
+        margin-left: 200px;
+        gap: 20px;
+    }
+
+    .banner-image {
+        margin-left: 200px;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+    }
+
+    .banner-heading {
+        font-size: 1.5rem;
+    }
+
+    .gamer-container-details,
+    .gamer-container-img {
+        margin-left: 370px;
+        text-align: center;
+    }
+
+    .gamer-container-title {
+        padding-left: 80px;
+        font-size: 1.5rem;
+    }
+
+    .gamer-container-details {
+        margin-left: 300px;
+    }
+
+    .gamer-container-btn {
+        margin-left: 70px;
+    }
+
+    .gamer-container-details p {
+        font-size: 0.7rem;
+    }
+
+    .gamer-container-description-special {
+        font-size: 1.2rem;
+    }
+
+    .gamer-videos {
+        text-align: center;
+        padding-left: 170px;
+    }
+
+    .gamer-videos h4,
+    p {
+        font-size: 1.5rem;
+        margin-left: 90px;
+    }
+
+    .gamer-videos p {
+        font-size: 0.9rem;
+    }
+
+    .videos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .instant-play-details {
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .instant-play-details h3 {
+        margin-left: 150px;
+        font-size: 1.2rem;
+    }
+
+    .instant-play-description {
+        margin-top: 20px;
+        font-size: 0.8rem;
+        margin-left: 140px;
+    }
+
+    .instant-play {
+        margin-top: 0;
+    }
+
+    .instant-play-img-top {
+        margin-left: 370px;
+    }
+
+    .instant-play-img-bottom {
+        margin-left: 270px;
+    }
+
+    .choose-games {
+        margin-top: 5px;
+        margin-left: 380px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 70px;
+        padding: 20px;
+
+    }
+
+    .choose-games-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .choose-game-btn {
+        padding: 0;
+        gap: 0;
+        width: 250px;
+    }
+
+    .choose-game-btn p {
+        font-size: 0.7rem;
+    }
+
+    .footer {
+        width: 800px;
+        margin-left: 150px;
+    }
 }
